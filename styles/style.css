@@ -129,6 +129,7 @@ section {
   justify-content: center;
   color: #fff;
   padding: 15px 170px;
+  height: 500px;
 }
 .dash {
   display: flex;
@@ -168,4 +169,34 @@ padding: 18px ;
 .specific-services :hover{
   background: #ff4a57;
   cursor: pointer;
+  transition: width 2s ,height 3s;
 }
+ /* about */
+ .tetabout{
+  color: #fff;
+  flex-direction:column;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+  font-size: 1.5rem;
+ }
+ .more-info{
+  display: grid;
+  grid-template-columns:auto auto;
+  gap: 70px;
+  margin: 60px;
+  color: #fff;
+ }
+ .spec-info{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 40px;
+  color: #fff;
+ }
+ .more-info .texter h2 p{
+  color:whitesmoke;
+  padding: 60px;
+ }
+ .spec-info h2{
+   color: #ff4a57;
+ }
